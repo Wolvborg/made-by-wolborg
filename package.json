@@ -1,0 +1,11 @@
+{
+  "name": "made-by-wolborg",
+  "version": "0.0.1",
+  "description": "A very tiny library to saeal the deatils of maker in a web or nodejs project",
+  "main": "./src/main.js",
+  "types": "./src/main.d.ts",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "typescript": "^5.0.4"
+  }
+}
