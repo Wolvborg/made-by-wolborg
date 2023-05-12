@@ -1,11 +1,29 @@
 {
   "name": "made-by-wolborg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very tiny library to saeal the deatils of maker in a web or nodejs project",
-  "main": "./src/main.js",
+  "main": "./dist/main.js",
   "types": "./src/main.d.ts",
+  "keywords": [
+    "wolborg"
+  ],
+  "author": "Abhishek Saini <binnu24668@gmail.com>",
+  "homepage": "https://github.com/Wolvborg/made-by-wolborg#readme",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wolvborg/made-by-wolborg.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.1.2",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.0"
   }
 }
